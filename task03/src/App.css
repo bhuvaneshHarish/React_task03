@@ -1,0 +1,137 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+.header-Name{
+  padding-left: 10px;
+  color: white;
+  font-weight: 600;
+}
+
+.bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.bar li{
+  list-style-type: none;
+  font-size: 18px;
+  margin-right: 25px;
+  font-weight:bold;
+  
+}
+.bar li a{
+  text-decoration: none;
+  color: white;
+}
+.login-page{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+}
+.login-box{
+  border-radius: 15px;
+  box-shadow: 0 16px 32px 0px rgb(31 35 135 / 37%);
+  display: grid;
+  text-align: center;
+  width: 25%;
+  padding: 40px
+}
+.prod-name{
+ margin: 10px !important;
+}
+.prod-price{
+  margin: 10px !important;
+ }
+ .sub-btn{
+  width: 150px !important;
+  margin: 0 auto !important;
+  background-color: red !important;
+  color: white !important;
+  text-align: center !important;
+ }
+ .profile-table{
+  width:100%;
+  padding: 20px;
+ }
+ .cart-table{
+  width: 100%;
+ }
+ 
+ .table-head{
+  width: 20%;
+  font-size:25px;
+  border-bottom: 2px solid black;
+ }
+ .product-data{
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ }
+ .edit-btn{
+    border: none;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    margin-right: 5px;
+    border-radius: 5px;
+ }
+ .del-btn{
+  padding: 10px;
+    border: none;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+ }
+ .decrement-btn{
+    border: none;
+    font-size: 22px;
+    border-radius: 5px;
+    color: blue;
+    margin-right: 10px;
+ }
+ .increment-btn{
+    border: none;
+    font-size: 22px;
+    border-radius: 5px;
+    color: blue;
+    margin-left: 5px;
+ }
+ .cart-product-name{
+    padding: 15px;
+    font-size: 20px;
+ }
+ .cart-product-price{
+    padding: 15px;
+    font-size: 20px;
+ }
+ .update-form{
+    display: grid;
+    text-align: center;
+    height: 40vh;
+    align-items: center;
+ }
+ span{
+   font-weight: bold;
+   padding: 4px;
+ }
+ .editform-name{
+  padding: 14px;
+  font-size: 20px;
+  margin-bottom: 25px
+ }
+ .editform-price{
+  padding: 14px;
+  font-size: 20px;
+  margin-bottom: 25px
+ }
+ .update-btn{
+  background-color: green !important;
+  color: white !important;
+  margin: 10px 105px !important;
+ }
